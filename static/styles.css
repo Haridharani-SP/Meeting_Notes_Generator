@@ -1,0 +1,270 @@
+/* Main Styles for Meeting Notes Generator */
+
+/* Global Styles */
+.main {
+    background-color: #f8f9fa;
+}
+
+.stApp {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Header Styles */
+.main-header {
+    font-size: 3.5rem !important;
+    font-weight: 700 !important;
+    background: linear-gradient(45deg, #FF6B6B, #4ECDC4, #45B7D1, #96CEB4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin-bottom: 1rem !important;
+    padding: 20px;
+}
+
+.sub-header {
+    font-size: 2rem !important;
+    color: #2c3e50 !important;
+    font-weight: 600;
+    margin-bottom: 1.5rem !important;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+/* Card and Box Styles */
+.info-box {
+    background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-left: 5px solid #fdcb6e;
+}
+
+.success-box {
+    background: linear-gradient(135deg, #00b894 0%, #00a085 100%);
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-left: 5px solid #fdcb6e;
+}
+
+.warning-box {
+    background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    color: #2d3436;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Button Styles */
+.stButton>button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+/* Sidebar Styles */
+.css-1d391kg {
+    background: linear-gradient(180deg, #2c3e50 0%, #3498db 100%);
+}
+
+.sidebar .sidebar-content {
+    background: linear-gradient(180deg, #2c3e50 0%, #3498db 100%);
+}
+
+/* File Uploader Styles */
+.stFileUploader>div>div {
+    border: 3px dashed #74b9ff;
+    border-radius: 15px;
+    background-color: rgba(116, 185, 255, 0.1);
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+
+.stFileUploader>div>div:hover {
+    border-color: #0984e3;
+    background-color: rgba(116, 185, 255, 0.2);
+}
+
+/* Progress Bar Styles */
+.stProgress > div > div > div {
+    background: linear-gradient(90deg, #74b9ff, #0984e3, #74b9ff);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+/* Text Area Styles */
+.stTextArea textarea {
+    border-radius: 10px;
+    border: 2px solid #dfe6e9;
+    padding: 15px;
+    font-family: 'Courier New', monospace;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.stTextArea textarea:focus {
+    border-color: #74b9ff;
+    box-shadow: 0 0 10px rgba(116, 185, 255, 0.5);
+}
+
+/* Metric Cards */
+.css-1r6slb0 {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border-radius: 15px;
+    padding: 20px;
+    border-left: 5px solid #74b9ff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Download Button Styles */
+.download-btn {
+    background: linear-gradient(135deg, #00b894 0%, #00a085 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 12px 30px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2) !important;
+}
+
+.download-btn:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3) !important;
+    background: linear-gradient(135deg, #00a085 0%, #00b894 100%) !important;
+}
+
+/* Custom Section Styles */
+.section-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px 0;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border-left: 5px solid #74b9ff;
+}
+
+.section-card h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.section-card h4 {
+    color: #3498db;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Animation for Success */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-header {
+        font-size: 2.5rem !important;
+    }
+    
+    .sub-header {
+        font-size: 1.5rem !important;
+    }
+    
+    .section-card {
+        padding: 15px;
+        margin: 10px 0;
+    }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #0984e3, #74b9ff);
+}
+
+/* Loading Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.loading-pulse {
+    animation: pulse 2s infinite;
+}
+
+/* Icon Styles */
+.icon-large {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+/* Badge Styles */
+.badge {
+    background: linear-gradient(135deg, #ff7675, #fd79a8);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 10px;
+}
