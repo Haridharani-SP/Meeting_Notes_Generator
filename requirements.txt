@@ -1,11 +1,12 @@
 streamlit==1.28.0
-torch==2.0.1
-torchaudio==2.0.2
-librosa==0.10.1
-soundfile==0.12.1
+numpy==1.21.0  # Downgrade numpy for compatibility
+scipy==1.7.3
+librosa==0.9.2
+soundfile==0.10.3
 pydub==0.25.1
 nltk==3.8.1
-numpy==1.24.3
+torch==2.0.1
+torchaudio==2.0.2
 openai-whisper==20231117
 sumy==0.11.0
 newspaper3k==0.2.8
