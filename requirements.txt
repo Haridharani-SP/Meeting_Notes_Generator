@@ -1,5 +1,11 @@
-streamlit>=1.28.0
+streamlit==1.28.0
 openai>=1.3.0
 python-dotenv>=1.0.0
 PyPDF2>=3.0.0
-python-multipart>=0.0.6
+pydub==0.25.1
+nltk==3.8.1
+numpy==1.24.3
+sumy==0.11.0
+newspaper3k==0.2.8
+pyttsx3==2.90
+soundfile==0.12.1
